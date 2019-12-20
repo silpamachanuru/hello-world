@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>myhomepage</title>
+</head>
+<body>
+    <div> 
+        my first MVC view <br />
+
+
+       view data= @ViewData["myviewdata"] <br />
+
+       view bag= @ViewBag.myviewbag <br/>
+
+       tempdata= @TempData["mytemp"] <br />
+
+        session= @Session["mysession"]
+    </div>
+</body>
+</html>
