@@ -1,3 +1,3 @@
 # hello-world
 
-c# application
+Visual Studio c# .Net application
